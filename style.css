@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+   margin-top: 150px;
+   transform: rotateX(0deg) rotateY(20deg) rotateZ(0deg);
+
+}
+
+
+.container{
+   background-image: url("one8img.webp");
+   background-size: contain;
+   background-repeat: no-repeat;
+    width: 209px;
+    height: 450px;
+   border: 4px solid black;
+    
+    border-radius: 16px;
+}
+
+.net{
+    display: flex;
+    height: 16px;
+    margin-left: 4px;
+   
+}
+.camera{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: -20px;
+    margin-left: 91px;
+}
+.cont2{
+    display: flex;
+    margin-left: 141px;
+    margin-top: -17px;
+}
+.battery{
+    height: 18px;
+}
+.cont3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 12px;
+}
+.time{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cloud{
+    height: 25px;
+    
+}
+.dty{
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.cont4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 172px;
+}
+
+.icon1{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  background-image: url("photos.png");
+  background-size: cover;
+}
+.icon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("setting.jpg");
+    background-size: cover;
+}
+.icon3{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("playstore.jpg");
+    background-size: cover;
+}
+.icon4{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("fm.jpg");
+    background-size: cover;
+}
+.cont5 {
+    display: flex;
+    font-size: 7px;
+    justify-content: space-around;
+    margin-left: 5px;
+    color: white;
+}
+.cont6{
+    margin-top: 13px;
+    margin-left: 69px;
+}
+.left {
+    width: 29px;
+    height: 23px;
+}
+.right {
+    width: 29px;
+    height: 23px;
+}
+.cont7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+   
+}
+.cont8 {
+    display: flex;
+    font-size: 7px;
+    justify-content: space-around;
+    margin-left: 1px;
+    color: white;
+}
+.icon5{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("phone.jpg");
+    background-size: cover;
+}
+.icon6{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("messages.jpg");
+    background-size: cover;
+   
+}
+.icon7{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("internet.jpg");
+    background-size: cover;
+}
+.icon8{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-image: url("camera.jpg");
+    background-size: cover;
+}
